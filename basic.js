@@ -250,7 +250,7 @@ console.log(res4)
 // let b = 3;
 
 
-let res5 = a == 0 !== b == 3 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
+let res5 = a == 0 || b == 3 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
 console.log(res5)
 //6==0  3==3
 //false  True
