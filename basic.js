@@ -94,7 +94,7 @@ const postres = [
 console.log('Ejercicio  4:')
 
 
-var coder = {
+const coder = {
     nombre: "Einar",
     edad: 30,
     
@@ -123,27 +123,38 @@ console.table(familia)
 //Ejercicio 6: Crea una varible que sume 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
+console.log('Ejercicio  6:')
 
+let suma=10+3;
+console.log(suma);
 
 
 
 //Ejercicio 7: Crea una varible que reste 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
+console.log('Ejercicio  7:')
 
-
-
+let resta=10-3;
+console.log(resta);
 
 //Ejercicio 8: Crea una varible que multiplique 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
+console.log('Ejercicio  8:')
 
+let multiplicacion=10*3;
+console.log(multiplicacion);
 
 
 
 //Ejercicio 9: Crea una varible que divida 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
+console.log('Ejercicio  9:')
+
+let division=10/3;
+console.log(division);
 
 
 
@@ -152,8 +163,15 @@ console.table(familia)
 // Ejercicio 10: Crea dos variables, la primera con un valor numérico de 1 y la segunda con un valor numérico de 2, compara ambas variables dentro de otra variable e imprime en la consola para ver el resultado.
 
 //Escribe tu código aquí
+console.log('Ejercicio  10:')
 
-
+let a=6
+let b=2
+if(a<b){
+    console.info("A si es menor que b")
+}else{
+    console.warn("A NO es menor que b, asi que...")
+}
 
 
 // Ejercicio 11: Crea otra variable que compare las dos primeras variables creadas en el ejercicio anterior, para que el resultado impreso en la consola sea true.
