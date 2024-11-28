@@ -10,36 +10,113 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
-
+console.log('Ejercicio  1:')
+console.log('"Bienvenida al bootcamp de FemCoders de Factoría F5"')
 
 
 //VARIABLES Y TIPOS DE DATOS
 //Ejercicio 2: Crea una variable por cada tipo de dato: string, number, boolean, null, undefined, object, array e imprímelos en la consola.
 
 //Escribe tu código aquí
+console.log('Ejercicio  2:')
+
+let string='String';
+console.log(string)
+
+let number=13;
+console.log(number)
+
+let boolean=true;
+console.log(boolean)
+
+let isnull=null;
+console.log(isnull)
+
+let isundefined=undefined;
+console.log(isundefined)
+
+let persona = {
+    nombres: ["Einar", " "],
+    apellidos: ["Sanchez", "Reynoso"],
+    pronombres: ["elle"],
+    edad: 30,
+    genero: "no binario",
+    intereses: ["futbol", "baile"],
+}
+console.table(persona)
+
+console.log(persona.nombres);
+// console.log(persona.nombres[0]);
+// console.log(persona.nombres[1]);
+console.log(persona.apellidos);
+// console.log(persona.apellidos[0]);
+// console.log(persona.apellidos[1]);
+console.log(persona.pronombres);
+console.log(persona.edad);
+console.log(persona.genero);
+// console.log(persona.intereses[0]);
+// console.log(persona.intereses[1]);
 
 
+let familia = [];
+familia["persona1"]= "Georgina";
+familia["persona2"]= "Einar";
+familia["gato1"]= "Dorian";
+familia["gato2"]= "Ruby";
 
+// console.log(familia["persona1"]);
+// console.log(familia["persona2"]);
+// console.log(familia["gato1"]);
+// console.log(familia["gato2"]);
+
+  console.table(familia)
 
 //Ejercicio 3: Crea una constante llamada postres con un tipo de dato array que contiene los siguientes elementos: helado, tarta, pastel e imprímelo en la consola. 
 
 //Escribe tu código aquí
+console.log('Ejercicio  3:')
 
+const postres = [
+    "Helado",
+    "Tarta",
+    "Pastel"
+  ];
+  
+//   console.log(postres[0]);
+//   console.log(postres[1]);
+//   console.log(postres[2]);
 
-
+  console.table(postres);
 
 //Ejercicio 4: Crea una constante con un tipo de dato objeto llamado coder que contengan dos propiedades, nombre y edad e imprímelo en la consola.
 
 //Escribe tu código aquí
+console.log('Ejercicio  4:')
 
 
+var coder = {
+    nombre: "Einar",
+    edad: 30,
+    
+  };
+
+  console.table(coder);
 
 
 //Ejercicio 5: Busca como imprimir en consola el tipo de dato de cada variable que hemos creado en el ejercicio 2.
 
 //Escribe tu código aquí
+console.log('Ejercicio  5:')
 
-
+console.log(`La variable constante string con el value: ${string} tiene el siguiente tipo de dato: `+typeof(string))
+console.log(`La variable constante number con el value: ${number} tiene el siguiente tipo de dato: `+typeof(number))
+console.log(`La variable constante boolean con el value: ${boolean} tiene el siguiente tipo de dato: `+typeof(boolean))
+console.log(`La variable constante isnull con el value: ${isnull} tiene el siguiente tipo de dato: `+typeof(isnull))
+console.log(`La variable constante isundefined con el value: ${isundefined} tiene el siguiente tipo de dato: `+typeof(isundefined))
+console.log(`La variable constante persona con el value representado en la siguiente tabla, tiene el siguiente tipo de dato: `+typeof(persona))
+console.table(persona)
+console.log(`La variable constante familia con el value representado en la siguiente tabla, tiene el siguiente tipo de dato: `+typeof(familia))
+console.table(familia)
 
 
 //OPERADORES ARITMÉTICOS
