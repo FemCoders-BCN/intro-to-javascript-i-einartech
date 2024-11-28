@@ -165,42 +165,48 @@ console.log(division);
 //Escribe tu código aquí
 console.log('Ejercicio  10:')
 
-let a=6
-let b=2
-if(a<b){
-    console.info("A si es menor que b")
-}else{
-    console.warn("A NO es menor que b, asi que...")
-}
+let aa=6
+let bb=2
+let cc = (aa == bb);
+console.log(cc);
 
 
 // Ejercicio 11: Crea otra variable que compare las dos primeras variables creadas en el ejercicio anterior, para que el resultado impreso en la consola sea true.
 
 //Escribe tu código aquí
+console.log('Ejercicio  11:')
 
-
+let dd = (aa>bb);
+console.log(dd);
 
 
 //Ejercicio 12: completa el ejercicio
+console.log('Ejercicio  12:')
 
 let num1 = 15
 let num2 = 20
 
-let comparision = //Realiza la operación de comparación que consideres para que el resultado en consola sea true
+//Realiza la operación de comparación que consideres para que el resultado en consola sea true
+let comparision = num1!=num2
 console.log(comparision)
 
 //Ejercicio 13: completa el ejercicio
+console.log('Ejercicio  13:')
 
 let num3 = 1
 let num3AsString = "1"
 
-let result = //Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
-console.log(result) 
+ //Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
+ let result =num3===num3AsString
+ console.log(result) 
 
 
 //Ejercicio 14: completa el ejercicio
+console.log('Ejercicio  14:')
 
-let result2 = //Realiza la operación de comparación que consideres con las dos variables del ejercicio anterior para que el resultado en consola sea true.
+//Realiza la operación de comparación que consideres con las dos variables del ejercicio anterior para que el resultado en consola sea true.
+
+let result2 = num3==num3AsString
 console.log(result2)
 
 
@@ -209,31 +215,46 @@ console.log(result2)
 //Ejercicio 15: Crea una variable con tu nombre y otra variable con tu apellido y crea otra nueva variable con tu nombre completo concatenando las dos variables anteriores e imprime en consola. Debe haber un espacio entre tu nombre y apellido.
 
 //Escribe tu código aquí
+console.log('Ejercicio  15:')
 
-
-
-
+let nombre="einar"
+let apellido="sanchez"
+let nombreyapellido =nombre+' '+apellido
+console.log(nombreyapellido)
 
 //OPERADORES DE LÓGICA
 //Ejercicio 16: Descomenta todo el bloque desde la variable 'a' hasta el 'console.log(res6)' y completa el ejercicio. (Saldrá un error y no podrás visualizar el resultado hasta que termines este ejercicio)
+console.log('Ejercicio  16:')
 
-/* let a = 6;
+
+let a = 6;
 let b = 3;
 
-let res =  a < 10 __ b > 1 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
+let res =  a < 10 == b > 1 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
 console.log(res)
+//true==true
 
-let res2 = a < 10 __ b < 1 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea false
+let res2 = a < 10 == b < 1 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea false
 console.log(res2)
+//true!=false
 
-let res3 = a == 5 __ b == 5 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea false
+let res3 = a == 5 == b == 5 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea false
 console.log(res3)
+//false == false
 
-let res4 = a == 6 __ b == 0 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
+let res4 = a == 6 > b == 0 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
 console.log(res4)
+// (6 es igual a seis) y es mayor que (3 que es menor que 0)
 
-let res5 = a == 0 __ b == 3 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
+// let a = 6;
+// let b = 3;
+
+
+let res5 = a == 0 !== b == 3 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
 console.log(res5)
+//6==0  3==3
+//false  True
+//No entiendo por que no me sale este, teoricamente debería ser asi, luego me cuentas alex
 
-let res6 = a == 6 __ b == 3 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
-console.log(res6) */
+let res6 = a == 6 && b == 3 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
+console.log(res6) 
