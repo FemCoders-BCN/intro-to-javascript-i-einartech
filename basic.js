@@ -57,18 +57,19 @@ console.log(persona.genero);
 // console.log(persona.intereses[0]);
 // console.log(persona.intereses[1]);
 
-
-let familia = [];
-familia["persona1"]= "Georgina";
-familia["persona2"]= "Einar";
-familia["gato1"]= "Dorian";
-familia["gato2"]= "Ruby";
+//Corregir linea 61 a 65 - Alex
+// let familia = [];
+// familia["persona1"]= "Georgina";
+// familia["persona2"]= "Einar";
+// familia["gato1"]= "Dorian";
+// familia["gato2"]= "Ruby";
 
 // console.log(familia["persona1"]);
 // console.log(familia["persona2"]);
 // console.log(familia["gato1"]);
 // console.log(familia["gato2"]);
 
+let familia = ["Georgina", "Einar","Dorian","Ruby"];
   console.table(familia)
 
 //Ejercicio 3: Crea una constante llamada postres con un tipo de dato array que contiene los siguientes elementos: helado, tarta, pastel e imprímelo en la consola. 
